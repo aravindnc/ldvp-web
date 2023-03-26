@@ -30,10 +30,12 @@ function ldvp_setup_stripes() {
     } else {
         setTop = 0;
 
+        
+
         if (jQuery('.stripes_fullscreen_on').length > 0) {
             setHeight = jQuery(window).height();
         } else {
-            setHeight = jQuery(window).height() - jQuery('header').height();
+            setHeight = jQuery(window).height() - 223; //jQuery('header').height();
         }
     }
 
